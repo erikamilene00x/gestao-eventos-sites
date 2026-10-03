@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4><b>Inscrição em evento</b></h4>
+    <hr>
+<form action="destino.html" method="get">
+    <legend>Dados Pessoais</legend><br>
+    <label for="nome_id"><b>Nome completo:</b></label><br>
+    <input type="text" name="nome" id="nome_id" placeholder="Digite seu nome"><br>
+    <label for="email"><b>E-mail:</b></label><br>
+    <input type="email" name="email" id="email_id" placeholder="nome@aluno.ifba.edu.br"><br>
+    <label for="Numero"><b>Matrícula:</b></label><br>
+    <input type="number" name="matricula" id="matricula_id"><br>
+    <label for="Data"><b>Data de nascimento:</b></label><br>
+    <input type="date" name="data" id="data_id"><br><br>
+    <hr>
+    <legend>Dados da Inscrição</legend><br>
+    <label for="evento_id"></label>
+    <select name="evento" id="evento_id">
+        <option value="semana_computacao_2026">Semana de Computação 2026</option>
+    </select><br><br>
+    <label for=""><b>Turno de Preferência</b></label><br>
+        <input type="radio" name="turno" value="matutino" id="matutino_id">
+        <label for="matutino_id">Matutino</label><br>
+        <input type="radio" name="turno" value="vespertino" id="vespertino_id">
+        <label for="vespertino_id">Vespertino</label><br>
+        <input type="radio" name="turno" value="noturno" id="noturno_id">
+        <label for="noturno_id">Noturno</label><br><br>
+        <label for=""><b>Interesses</b></label><br>
+        <input type="checkbox" name="interesses" value="Palestras" id="palestras_id">
+        <label for="palestras_id">Palestras</label><br>
+        <input type="checkbox" name="interesses" value="Minicursos" id="minicursos_id">
+        <label for="minicursos_id">Minicursos</label><br>
+        <input type="checkbox" name="interesses" value="Competições" id="competicoes_id">
+        <label for="competicoes_id">Competições</label><br>
+        <br>
+        <label for="observacoes_id">Observações:</label><br>
+        <textarea name="Observações" id="observacoes_id" placeholder="Alguma observação sobre a sua inscrição?"></textarea><br><br>
+        <hr>
+        <input type="submit" value="Confirmar Inscrição">
+        <input type="reset" value="Limpar Formulário">
+    
+</form>
+</body>
+</html>
